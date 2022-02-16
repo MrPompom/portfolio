@@ -8,17 +8,17 @@ $form = array(
     'success_redirect' => '',
     'sendIpAddress' => true,
     'email' => array(
-    'from' => 'bprompsy@gmail.com',
-    'to' => 'bastienprompsy@gmail.com'
+    'from' => '',
+    'to' => ''
     ),
     'fields' => array(
     'name' => array(
     'order' => 1,
     'type' => 'string',
-    'label' => 'Nom',
+    'label' => 'Name',
     'required' => true,
     'errors' => array(
-    'required' => 'Field \'Nom\' is required.'
+    'required' => 'Field \'Name\' is required.'
     )
     ),
     'email' => array(
